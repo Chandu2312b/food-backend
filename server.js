@@ -16,7 +16,7 @@ const port = process.env.PORT || 4000;
 app.use(express.json())
 app.use(cors({
     origin:[
-        "https://food-frontend-ruby.vercel.app",
+        "https://food-app-frontend-fhb4.onrender.com",
         "https://food-app-admin-mauve.vercel.app"
     ],
     credentials:true
